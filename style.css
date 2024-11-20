@@ -1,0 +1,148 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #130e0e;
+    padding: 10px 0;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ddd;
+    color: #333;
+    border-radius: 5px;
+  }
+  .container {
+    display: flex;
+    height:calc(100vh-50px) ;
+
+  }
+  .coloumn1 {
+    flex:1 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+  }
+  th ,td {
+    border: 1px solid black;
+    padding: 10px;
+
+  }
+  th {
+     background-color: #0b6954;
+     color:white;
+  }
+  td {
+    background-color: #0b6954;
+    color:white;
+  }
+  
+  section {
+    padding: 2em;
+    margin: 20px;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  label {
+    display: inline-table;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus, input[type="tel"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  i {
+    position:inherit;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007BFF;
+  }
+  
+  /* Submit Button Styles */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
